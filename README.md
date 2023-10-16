@@ -1,4 +1,4 @@
 # Parallel-and-distributed-computing-
 
 Prof. Giuliano Laccetti e Valeria Mele
-Anno 2023-2024
+Anno 2023-2024 [Corso Magistrale]
