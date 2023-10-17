@@ -1,0 +1,37 @@
+------------------------------------------------------
+ This job is allocated on 8 cpu(s)
+Job is running on node(s): 
+wn280.scope.unina.it
+wn280.scope.unina.it
+wn280.scope.unina.it
+wn280.scope.unina.it
+wn280.scope.unina.it
+wn280.scope.unina.it
+wn280.scope.unina.it
+wn280.scope.unina.it
+------------------------------------------------------
+PBS: qsub is running on ui-studenti.scope.unina.it
+PBS: originating queue is studenti
+PBS: executing queue is studenti
+PBS: working directory is /homes/DMA/PDC/2024/SLMFBL99X/Elaborato1
+PBS: execution mode is PBS_BATCH
+PBS: job identifier is 4008983.torque02.scope.unina.it
+PBS: job name is Elaborato1
+PBS: node file is /var/spool/pbs/aux//4008983.torque02.scope.unina.it
+PBS: current home directory is /homes/DMA/PDC/2024/SLMFBL99X
+PBS: PATH = /usr/lib64/openmpi/1.2.7-gcc/bin:/usr/kerberos/bin:/opt/exp_soft/unina.it/intel/composer_xe_2013_sp1.3.174/bin/intel64:/opt/exp_soft/unina.it/intel/composer_xe_2013_sp1.3.174/mpirt/bin/intel64:/opt/exp_soft/unina.it/intel/composer_xe_2013_sp1.3.174/bin/intel64:/opt/exp_soft/unina.it/intel/composer_xe_2013_sp1.3.174/bin/intel64_mic:/opt/exp_soft/unina.it/intel/composer_xe_2013_sp1.3.174/debugger/gui/intel64:/opt/d-cache/srm/bin:/opt/d-cache/dcap/bin:/opt/edg/bin:/opt/glite/bin:/opt/globus/bin:/opt/lcg/bin:/usr/local/bin:/bin:/usr/bin:/opt/exp_soft/HADOOP/hadoop-1.0.3/bin:/opt/exp_soft/unina.it/intel/composerxe/bin/intel64/:/opt/exp_soft/unina.it/MPJExpress/mpj-v0_38/bin:/homes/DMA/PDC/2024/SLMFBL99X/bin
+------------------------------------------------------
+Eseguo /usr/lib64/openmpi/1.4-gcc/bin/mpicc -o /homes/DMA/PDC/2024/SLMFBL99X/Elaborato1/out 
+/homes/DMA/PDC/2024/SLMFBL99X/Elaborato1/elaborato1.c
+Eseguo /usr/lib64/openmpi/1.4-gcc/bin/mpiexec -machinefile /var/spool/pbs/aux//4008983.torque02.scope.unina.it -n 8 
+/homes/DMA/PDC/2024/SLMFBL99X/Elaborato1/out
+STRATEGIA UTILIZZATA PER LA SOMMA: 2
+Somma calcolata da 7 è 1000005935.752797
+Somma calcolata da 0 è 1000005935.752797
+Tempo massimo 0.261382
+Somma calcolata da 2 è 1000005935.752797
+Somma calcolata da 3 è 1000005935.752797
+Somma calcolata da 4 è 1000005935.752797
+Somma calcolata da 5 è 1000005935.752797
+Somma calcolata da 6 è 1000005935.752797
+Somma calcolata da 1 è 1000005935.752797
