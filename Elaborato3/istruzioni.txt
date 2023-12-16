@@ -1,0 +1,6 @@
+Una volta fatto l'accesso al cluster, posizionarsi nella cartella del codice con "cd nome_cartella" ed eseguire e compilare con il codice :
+
+  - "qsub <file con estensione pbs>"
+
+si aspetta la terminazione con il comando "qstat" e si visualizza l'output con il comando "cat nome-file.out"
+          

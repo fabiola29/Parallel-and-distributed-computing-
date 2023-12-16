@@ -1,0 +1,72 @@
+[Job-Script] Starting with 1 Threads...
+
+=== Threads 1 - Matrix 4 x 3 ===
+
+tempo impiegato: 0.000012
+x[0]: 14
+x[1]: 32
+x[2]: 50
+x[3]: 68
+[Job-Script] Starting with 2 Threads...
+
+=== Threads 2 - Matrix 4 x 3 ===
+
+tempo impiegato: 0.002717
+x[0]: 14
+x[1]: 32
+x[2]: 50
+x[3]: 68
+[Job-Script] Starting with 3 Threads...
+
+=== Threads 3 - Matrix 4 x 3 ===
+
+tempo impiegato: 0.002108
+x[0]: 14
+x[1]: 32
+x[2]: 50
+x[3]: 68
+[Job-Script] Starting with 4 Threads...
+
+=== Threads 4 - Matrix 4 x 3 ===
+
+tempo impiegato: 0.002320
+x[0]: 14
+x[1]: 32
+x[2]: 50
+x[3]: 68
+[Job-Script] Starting with 5 Threads...
+
+=== Threads 5 - Matrix 4 x 3 ===
+
+tempo impiegato: 0.002190
+x[0]: 14
+x[1]: 32
+x[2]: 50
+x[3]: 68
+[Job-Script] Starting with 6 Threads...
+
+=== Threads 6 - Matrix 4 x 3 ===
+
+tempo impiegato: 0.005958
+x[0]: 14
+x[1]: 32
+x[2]: 50
+x[3]: 68
+[Job-Script] Starting with 7 Threads...
+
+=== Threads 7 - Matrix 4 x 3 ===
+
+tempo impiegato: 0.006046
+x[0]: 14
+x[1]: 32
+x[2]: 50
+x[3]: 68
+[Job-Script] Starting with 8 Threads...
+
+=== Threads 8 - Matrix 4 x 3 ===
+
+tempo impiegato: 0.008214
+x[0]: 14
+x[1]: 32
+x[2]: 50
+x[3]: 68

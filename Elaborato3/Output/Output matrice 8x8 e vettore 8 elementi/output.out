@@ -1,0 +1,104 @@
+[Job-Script] Starting with 1 Threads...
+
+=== Threads 1 - Matrix 8 x 8 ===
+
+tempo impiegato: 0.000014
+x[0]: 204
+x[1]: 492
+x[2]: 780
+x[3]: 1068
+x[4]: 1356
+x[5]: 1644
+x[6]: 1932
+x[7]: 2220
+[Job-Script] Starting with 2 Threads...
+
+=== Threads 2 - Matrix 8 x 8 ===
+
+tempo impiegato: 0.001565
+x[0]: 204
+x[1]: 492
+x[2]: 780
+x[3]: 1068
+x[4]: 1356
+x[5]: 1644
+x[6]: 1932
+x[7]: 2220
+[Job-Script] Starting with 3 Threads...
+
+=== Threads 3 - Matrix 8 x 8 ===
+
+tempo impiegato: 0.000216
+x[0]: 204
+x[1]: 492
+x[2]: 780
+x[3]: 1068
+x[4]: 1356
+x[5]: 1644
+x[6]: 1932
+x[7]: 2220
+[Job-Script] Starting with 4 Threads...
+
+=== Threads 4 - Matrix 8 x 8 ===
+
+tempo impiegato: 0.002107
+x[0]: 204
+x[1]: 492
+x[2]: 780
+x[3]: 1068
+x[4]: 1356
+x[5]: 1644
+x[6]: 1932
+x[7]: 2220
+[Job-Script] Starting with 5 Threads...
+
+=== Threads 5 - Matrix 8 x 8 ===
+
+tempo impiegato: 0.003112
+x[0]: 204
+x[1]: 492
+x[2]: 780
+x[3]: 1068
+x[4]: 1356
+x[5]: 1644
+x[6]: 1932
+x[7]: 2220
+[Job-Script] Starting with 6 Threads...
+
+=== Threads 6 - Matrix 8 x 8 ===
+
+tempo impiegato: 0.004228
+x[0]: 204
+x[1]: 492
+x[2]: 780
+x[3]: 1068
+x[4]: 1356
+x[5]: 1644
+x[6]: 1932
+x[7]: 2220
+[Job-Script] Starting with 7 Threads...
+
+=== Threads 7 - Matrix 8 x 8 ===
+
+tempo impiegato: 0.005961
+x[0]: 204
+x[1]: 492
+x[2]: 780
+x[3]: 1068
+x[4]: 1356
+x[5]: 1644
+x[6]: 1932
+x[7]: 2220
+[Job-Script] Starting with 8 Threads...
+
+=== Threads 8 - Matrix 8 x 8 ===
+
+tempo impiegato: 0.008071
+x[0]: 204
+x[1]: 492
+x[2]: 780
+x[3]: 1068
+x[4]: 1356
+x[5]: 1644
+x[6]: 1932
+x[7]: 2220

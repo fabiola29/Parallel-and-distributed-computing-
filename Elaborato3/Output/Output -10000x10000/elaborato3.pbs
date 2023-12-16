@@ -1,0 +1,32 @@
+#!/bin/bash
+
+# Impostare le variabili dell'ambiente
+#PBS -q studenti
+#PBS -l nodes=1:ppn=8
+#PBS -N matxvet
+#PBS -o output.out
+#PBS -e error.err
+
+PBS_O_WORKDIR=$PBS_O_HOME/Elaborato2
+
+gcc -fopenmp -lgomp -o $PBS_O_WORKDIR/matxvet $PBS_O_WORKDIR/prodotto_mat_vet.c
+
+###################
+## CUSTOM VALUES ##
+###################
+COLUMN=10000
+ROWS=10000
+THREADS=(1 2 3 4 5 6 7 8 )
+###################
+
+for THREAD in "${THREADS[@]}"; do
+    echo "[Job-Script] Starting with $THREAD Threads..."
+    
+    export OMP_NUM_THREADS=$THREAD
+    export PSC_OMP_AFFINITY=TRUE
+
+    echo -e "\n=== Threads $THREAD - Matrix $COLUMN x $ROWS ===\n"
+    $PBS_O_WORKDIR/matxvet $COLUMN $ROWS
+done
+
+

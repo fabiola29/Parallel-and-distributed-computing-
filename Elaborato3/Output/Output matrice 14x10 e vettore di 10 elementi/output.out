@@ -1,0 +1,152 @@
+[Job-Script] Starting with 1 Threads...
+
+=== Threads 1 - Matrix 14 x 10 ===
+
+tempo impiegato: 0.000014
+x[0]: 385
+x[1]: 935
+x[2]: 1485
+x[3]: 2035
+x[4]: 2585
+x[5]: 3135
+x[6]: 3685
+x[7]: 4235
+x[8]: 4785
+x[9]: 5335
+x[10]: 5885
+x[11]: 6435
+x[12]: 6985
+x[13]: 7535
+[Job-Script] Starting with 2 Threads...
+
+=== Threads 2 - Matrix 14 x 10 ===
+
+tempo impiegato: 0.001235
+x[0]: 385
+x[1]: 935
+x[2]: 1485
+x[3]: 2035
+x[4]: 2585
+x[5]: 3135
+x[6]: 3685
+x[7]: 4235
+x[8]: 4785
+x[9]: 5335
+x[10]: 5885
+x[11]: 6435
+x[12]: 6985
+x[13]: 7535
+[Job-Script] Starting with 3 Threads...
+
+=== Threads 3 - Matrix 14 x 10 ===
+
+tempo impiegato: 0.004172
+x[0]: 385
+x[1]: 935
+x[2]: 1485
+x[3]: 2035
+x[4]: 2585
+x[5]: 3135
+x[6]: 3685
+x[7]: 4235
+x[8]: 4785
+x[9]: 5335
+x[10]: 5885
+x[11]: 6435
+x[12]: 6985
+x[13]: 7535
+[Job-Script] Starting with 4 Threads...
+
+=== Threads 4 - Matrix 14 x 10 ===
+
+tempo impiegato: 0.003131
+x[0]: 385
+x[1]: 935
+x[2]: 1485
+x[3]: 2035
+x[4]: 2585
+x[5]: 3135
+x[6]: 3685
+x[7]: 4235
+x[8]: 4785
+x[9]: 5335
+x[10]: 5885
+x[11]: 6435
+x[12]: 6985
+x[13]: 7535
+[Job-Script] Starting with 5 Threads...
+
+=== Threads 5 - Matrix 14 x 10 ===
+
+tempo impiegato: 0.005010
+x[0]: 385
+x[1]: 935
+x[2]: 1485
+x[3]: 2035
+x[4]: 2585
+x[5]: 3135
+x[6]: 3685
+x[7]: 4235
+x[8]: 4785
+x[9]: 5335
+x[10]: 5885
+x[11]: 6435
+x[12]: 6985
+x[13]: 7535
+[Job-Script] Starting with 6 Threads...
+
+=== Threads 6 - Matrix 14 x 10 ===
+
+tempo impiegato: 0.003143
+x[0]: 385
+x[1]: 935
+x[2]: 1485
+x[3]: 2035
+x[4]: 2585
+x[5]: 3135
+x[6]: 3685
+x[7]: 4235
+x[8]: 4785
+x[9]: 5335
+x[10]: 5885
+x[11]: 6435
+x[12]: 6985
+x[13]: 7535
+[Job-Script] Starting with 7 Threads...
+
+=== Threads 7 - Matrix 14 x 10 ===
+
+tempo impiegato: 0.003197
+x[0]: 385
+x[1]: 935
+x[2]: 1485
+x[3]: 2035
+x[4]: 2585
+x[5]: 3135
+x[6]: 3685
+x[7]: 4235
+x[8]: 4785
+x[9]: 5335
+x[10]: 5885
+x[11]: 6435
+x[12]: 6985
+x[13]: 7535
+[Job-Script] Starting with 8 Threads...
+
+=== Threads 8 - Matrix 14 x 10 ===
+
+tempo impiegato: 0.005222
+x[0]: 385
+x[1]: 935
+x[2]: 1485
+x[3]: 2035
+x[4]: 2585
+x[5]: 3135
+x[6]: 3685
+x[7]: 4235
+x[8]: 4785
+x[9]: 5335
+x[10]: 5885
+x[11]: 6435
+x[12]: 6985
+x[13]: 7535
