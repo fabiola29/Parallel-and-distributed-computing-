@@ -1,3 +1,0 @@
-Eseguo con : qsub <nome-file.pbs>
-Aspetto esecuzione con : qstat
-Visualizzo output con : cat <nome-file.out>
