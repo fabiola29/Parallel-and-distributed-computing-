@@ -1,0 +1,43 @@
+#!/bin/bash
+
+# Imposta le direttive per l'ambiente PBS
+#PBS -q studenti
+#PBS -l nodes=8:ppn=8
+#PBS -N sum
+#PBS -o sum.out
+#PBS -e sum.err
+
+sort -u $PBS_NODEFILE > hostlist
+
+NCPU=$(wc -l < hostlist)
+echo "[Job-Script] Starting with "$NCPU" CPUs..."
+
+echo "[Job-Script] Compiling..."
+PBS_O_WORKDIR=$PBS_O_HOME/8-november
+/usr/lib64/openmpi/1.4-gcc/bin/mpicc -o $PBS_O_WORKDIR/sum $PBS_O_WORKDIR/sum.c
+
+echo "[Job-Script] Checking input the values..."
+###################
+## CUSTOM VALUES ##
+###################
+# Il numero di valori da sommare
+NUMBERS_TO_SUM=10
+
+# La strategia da applicare, valore compreso tra 1 e 3
+STRATEGY=2
+
+# Il processore che effettua i calcoli e stampa il risultato, -1 per far stampare a tutti nella strategia 3
+PRINTER_ID=5
+###################
+
+# Verifica se il file esiste per leggere i valori
+FILEPATH=$PBS_O_WORKDIR/input.txt
+if [ -f $FILEPATH ]; then
+    NUMBERS="$(cat $FILEPATH)"
+else
+    echo "[Job-Script] ERROR: File input.txt is missing"
+    exit 1;
+fi
+
+echo "[Job-Script] Running the process..."
+/usr/lib64/openmpi/1.4-gcc/bin/mpiexec -machinefile hostlist --np $NCPU $PBS_O_WORKDIR/sum $NUMBERS_TO_SUM $NUMBERS $STRATEGY $PRINTER_ID

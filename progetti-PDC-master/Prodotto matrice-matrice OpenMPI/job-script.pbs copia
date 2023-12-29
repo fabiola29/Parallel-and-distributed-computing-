@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# Imposta le direttive per l'ambiente PBS
+#PBS -q studenti
+#PBS -l nodes=4:ppn=4
+#PBS -N matrix
+#PBS -o matrix.out
+#PBS -e matrix.err
+
+sort -u $PBS_NODEFILE > hostlist
+
+NCPU=$(wc -l < hostlist)
+echo "[Job-Script] Starting with "$NCPU" CPUs..."
+
+echo "[Job-Script] Compiling..."
+PBS_O_WORKDIR=$PBS_O_HOME/4-january
+/usr/lib64/openmpi/1.4-gcc/bin/mpicc -o $PBS_O_WORKDIR/matrix $PBS_O_WORKDIR/matrix.c $PBS_O_WORKDIR/utils.c
+
+echo "[Job-Script] Checking input the values..."
+###################
+## CUSTOM VALUES ##
+###################
+# La dimensione della matrice, deve essere uguale o un multiplo del numero di processori
+MATRIX_SIZE=8
+###################
+
+echo "[Job-Script] Running the process..."
+/usr/lib64/openmpi/1.4-gcc/bin/mpiexec -machinefile hostlist --np $NCPU $PBS_O_WORKDIR/matrix $MATRIX_SIZE

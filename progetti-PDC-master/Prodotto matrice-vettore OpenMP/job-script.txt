@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# Setting env variables, NO LINES OF CODE MUST BE BEFORE THOSE DIRECTIVES
+#PBS -q studenti
+#PBS -l nodes=1:ppn=8
+#PBS -N es2
+#PBS -o es2.out
+#PBS -e es2.err
+
+sort -u $PBS_NODEFILE > hostlist
+
+echo "[Job-Script] Compiling..."
+PBS_O_WORKDIR=$PBS_O_HOME/20-december
+gcc -fopenmp -lgomp -o $PBS_O_WORKDIR/es2 $PBS_O_WORKDIR/es2.c
+
+###################
+## CUSTOM VALUES ##
+###################
+COLUMN=10000
+ROWS=10000
+THREADS=5
+###################
+
+echo "[Job-Script] Starting with "$THREADS" Threads..."
+
+export OMP_NUM_THREADS=$THREADS
+export OMP_SCHEDULE="dynamic,2"
+echo -e "\n=== Threads "$THREADS" - Matrix "$COLUMN"x"$ROWS" ===\n"
+$PBS_O_WORKDIR/es2 $COLUMN $ROWS
